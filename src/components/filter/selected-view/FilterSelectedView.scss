@@ -1,0 +1,46 @@
+.platform-filter-selected-view {
+    .tags-container {
+        background: #e0e4ec;
+        padding: 10px;
+        padding-bottom: 0px;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+
+    .tags-clear {
+        display: inline-block;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .tag-filter {
+        border-radius: 2px;
+        background: #ffffff;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 13px;
+        margin-right: 10px;
+
+        .tag-filter-text {
+            cursor: pointer;
+        }
+
+        .tag-filter-name {
+            color: #849095;
+            margin-right: 5px;
+            font-weight: 500;
+        }
+
+        .tag-filter-values {
+            font-weight: bold;
+            color: #55646c;
+        }
+
+        .tag-filter-close {
+            margin-left: 30px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import "../../shared/_color.scss";
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #1d2429;
+  border-color: #cdd3d7;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: $white;
+  background: $shamrock;
+}
